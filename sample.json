@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "items": [
+    {
+      "id": 1,
+      "name": "knife",
+      "desc": "looks pretty sharp"
+    },{
+      "id": 2,
+      "name": "potato",
+      "desc": "yummy!"
+    },{
+      "id": 3,
+      "name": "doll",
+      "desc": "pretty creepy"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "north": 2,
+      "south": -1,
+      "east": 3,
+      "west": -1
+    }
+  ],
+  "base_character_info": {
+
+  }
+}
