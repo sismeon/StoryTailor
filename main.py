@@ -20,6 +20,10 @@ class GameScreen(Screen):
     pass
 
 
+class StoryTailorScreenManager(ScreenManager):
+    pass
+
+
 class StoryTailorApp(App):
     def build(self):
         return LoginScreen()
