@@ -7,17 +7,9 @@ from kivy.uix.screenmanager import Screen, ScreenManager
 from kivy.lang import Builder
 from kivy.core.window import Window
 
+from ui import game, login
 
-Builder.load_file('./ui/login.kv')
-Builder.load_file('./ui/game.kv')
-
-
-class LoginScreen(Widget):
-    pass
-
-
-class GameScreen(Screen):
-    pass
+Builder.load_file('./main.kv')
 
 
 class StoryTailorScreenManager(ScreenManager):
@@ -26,7 +18,7 @@ class StoryTailorScreenManager(ScreenManager):
 
 class StoryTailorApp(App):
     def build(self):
-        return LoginScreen()
+        return StoryTailorScreenManager()
 
 
 if __name__ == "__main__":

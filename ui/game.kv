@@ -1,0 +1,27 @@
+<GameScreen>:
+    name: 'game'
+    txt_input: input
+    txt_output: output
+
+    RelativeLayout:
+        size_hint: (1, 0.6)
+        pos_hint: {'left': 1, 'top': 1}
+
+        TextInput:
+            id: input
+            width: root.width
+            height: 30
+            size_hint: (1, None)
+
+        Label:
+            id: output
+            text: 'I like trains'
+            outline_color: (0.01, 0.01, 0.01, 1)
+            text_size: self.size
+            size_hint: (1, None)
+            size: (root.width, root.height - 30)
+            background_color: (1, 1, 1, 1)
+            halign: 'left'
+            valign: 'top'
+            pos_hint: {'left': 1, 'top': 1}
+
