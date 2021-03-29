@@ -7,7 +7,7 @@ Kivy==1.10.1
 Kivy-Garden==0.1.4
 kivy.deps.glew==0.1.10
 kivy.deps.sdl2==0.1.18
-Pygments==2.2.0
+Pygments==2.7.4
 requests==2.19.1
 SQLAlchemy==1.2.11
 urllib3==1.23
