@@ -10,4 +10,4 @@ kivy.deps.sdl2==0.1.18
 Pygments==2.2.0
 requests==2.19.1
 SQLAlchemy==1.2.11
-urllib3==1.23
+urllib3==1.26.5
